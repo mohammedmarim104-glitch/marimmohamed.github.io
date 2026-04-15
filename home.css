@@ -16,6 +16,7 @@ body {
          justify-content: space-between;
          align-items: center;
          flex-wrap:nowrap;
+         width:100%;
        }
     header ul{
           display: flex;
@@ -27,6 +28,8 @@ body {
           margin:0;
           overflow-x: auto;
           white-space: nowrap;
+          max-width:100%;
+          flex-shrink: 1;
          }
 header ul li{
              margin: 0px;
@@ -81,8 +84,8 @@ header{
     align-items: center;
   }
   header ul li a{
-    padding:5px 10px;
-    font-size:14px;
+    padding:4px 8px;
+    font-size:13px;
   }
  .title{
     width:100%;
